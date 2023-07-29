@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "Walksys-vanilla-optimizer-ghost-version",
+  "version": "${version}",
+
+  "name": "nocrystallag",
+  "description": "removes the crystal lag",
+  "authors": [
+    "homo666"
+  ],
+  "contact": {
+    "homepage": "https://github.com/homo666"
+  },
+
+  "license": "MIT",
+  "icon": "assets/optimizer/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "walksy.optimizer.WalksyCrystalOptimizerMod"
+    ]
+  },
+
+  "mixins": [
+    "crystaloptimizer.mixins.json"
+  ],
+
+  "depends": {
+    "midnightlib": "*"
+  }
+}
