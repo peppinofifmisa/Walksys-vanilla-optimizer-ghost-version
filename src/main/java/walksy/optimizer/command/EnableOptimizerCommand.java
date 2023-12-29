@@ -14,7 +14,7 @@ public class EnableOptimizerCommand {
 
     public void initializeToggleCommands() {
         ClientCommandRegistrationCallback.EVENT.register((dispatcher, registryAccess) ->
-                dispatcher.register(ClientCommandManager.literal("walksyfastcrystal").executes(context -> {
+                dispatcher.register(ClientCommandManager.literal("seen").executes(context -> {
                     if (fastCrystal) {
                         fastCrystal = false;
                         displayMessage("Walksy's Fast crystals disabled!");

@@ -6,7 +6,7 @@ import walksy.optimizer.command.EnableOptimizerCommand;
 
 
 
-public class WalksyCrystalOptimizerMod implements ClientModInitializer {
+public class Smalltotem implements ClientModInitializer {
     public static MinecraftClient mc;
 
     /**
